@@ -1,0 +1,10 @@
+[user]
+   email = paulito272@gmail.com
+   name = paulito272
+[core]
+    excludesfile = /home/paul/.gitignore_global
+   editor = vim
+[alias]
+   lg = log --graph --pretty=format:'%C(yellow)%h%C(auto)%d%Creset %s %Cblue<%an> %Cgreen(%ar)%Creset' --all
+[push]
+    default = simple
