@@ -19,7 +19,6 @@ set nobackup nowritebackup noswapfile " Turn off backup files
 set noerrorbells novisualbell         " Turn off visual and audible bells
 set expandtab shiftwidth=4 tabstop=4  " Two spaces for tabs everywhere
 set history=500                       " Set history size
-set hlsearch                          " Highlight search results
 set ignorecase smartcase              " Search queries intelligently set case
 set incsearch                         " Show search results as you type
 set timeoutlen=1000 ttimeoutlen=0     " Remove timeout when hitting escape
