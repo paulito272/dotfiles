@@ -48,7 +48,6 @@ nnoremap <leader>e :NERDTree<CR>
 nnoremap <leader>t :tabnew<CR>
 nnoremap <leader>v :vsplit<CR>
 nnoremap <leader>s :split<CR>
-nnoremap <leader>gs :Gstatus<CR>
 nnoremap <leader>. :CtrlPTag<CR>
 nnoremap <F8> :TagbarToggle<CR>
 
@@ -63,6 +62,12 @@ nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
+
+" Split line
+nnoremap K i<CR><Esc>
+
+" Linters
+let g:syntastic_python_checkers = ['flake8']
 
 " Create the `tags` file
 command! MakeTags !ctags -R .
@@ -83,6 +88,7 @@ Plug 'valloric/matchtagalways'
 Plug 'valloric/youcompleteme'
 Plug 'scrooloose/nerdcommenter'
 Plug 'scrooloose/nerdtree'
+Plug 'scrooloose/syntastic'
 Plug 'mileszs/ack.vim'
 Plug 'kien/ctrlp.vim'
 Plug 'majutsushi/tagbar'
